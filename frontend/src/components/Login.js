@@ -37,7 +37,7 @@ const Login = () => {
     <Box sx={{
       minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center',
       //backgroundImage: 'url("https://th.bing.com/th/id/OIG4.TjUQ9brtC5fvzepIoXTp?pid=ImgGn")',
-      backgroundImage: 'url("https://th.bing.com/th/id/OIG4.TjUQ9brtC5fvzepIoXTp?pid=ImgGn")',
+      backgroundImage: 'url("https://media.timeout.com/images/105617787/image.jpg")',
 
       backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: '#36393f', color: 'white', padding: '20px',
     }}
