@@ -11,7 +11,7 @@ const Trivia = ({ room, username, socket }) => {
   const [scores, setScores] = useState([]);
   const [gameOver, setGameOver] = useState(false);
 
-  const rooms = {};
+
 
 
   useEffect(() => {
