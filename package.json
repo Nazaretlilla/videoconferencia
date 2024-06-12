@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"npm run start-main\" \"npm run start-chat\" \"npm run start-trivia\"",
+    "start": "npm run build && concurrently \"npm run start-main\" \"npm run start-chat\" \"npm run start-trivia\"",
     "start-main": "node server.js",
     "start-chat": "cd chat-service && npm start",
     "start-trivia": "cd trivia-service && npm start",
+    "build": "cd frontend && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

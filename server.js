@@ -6,6 +6,8 @@ const http = require('http');
 const socketIo = require('socket.io');
 const path = require('path');
 const cors = require('cors');
+require('dotenv').config();
+
 const { PORT, MONGO_URI, JWT_SECRET } = process.env;
 const authRoutes = require('./routes/authRoutes');
 const { authenticate } = require('./controllers/authController');
