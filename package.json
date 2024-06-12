@@ -1,15 +1,12 @@
 {
   "name": "videoconferencia",
   "version": "1.0.0",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "concurrently \"npm run start-main\" \"npm run start-chat\" \"npm run start-trivia\" \"npm run start-frontend\"",
-    "start-main": "node src/server.js",
-    "start-chat": "npm run src/chat-service/start",
-    "start-trivia": "npm run src/trivia-service/start",
-    "start-frontend": "cd src/frontend && npm start",
-    "install-frontend": "npm install",
-    "postinstall": "npm run install-frontend",
+    "start": "npm run start-main && npm run start-chat && npm run start-trivia",
+    "start-main": "node server.js",
+    "start-chat": "cd chat-service && npm start",
+    "start-trivia": "cd trivia-service && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
