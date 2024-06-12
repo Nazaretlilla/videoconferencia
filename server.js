@@ -6,7 +6,9 @@ const http = require('http');
 const socketIo = require('socket.io');
 const path = require('path');
 const cors = require('cors');
-const { PORT, MONGO_URI, JWT_SECRET } = require('./config');
+require('dotenv').config();
+
+const { PORT, MONGO_URI, JWT_SECRET } = process.env;
 const authRoutes = require('./routes/authRoutes');
 const { authenticate } = require('./controllers/authController');
 const jwt = require('jsonwebtoken');
@@ -15,7 +17,7 @@ const app = express();
 
 // Configura CORS
 app.use(cors({
-  origin: 'http://localhost:3001',
+  origin: process.env.CORS_ORIGIN || '*',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
@@ -48,7 +50,7 @@ app.get('*', (req, res) => {
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: 'http://localhost:3001',
+    origin: process.env.CORS_ORIGIN || '*',
     methods: ['GET', 'POST']
   }
 });
@@ -122,4 +124,3 @@ io.on('connection', socket => {
 server.listen(PORT || 3000, () => {
   console.log(`Server running on port ${PORT || 3000}`);
 });
-
