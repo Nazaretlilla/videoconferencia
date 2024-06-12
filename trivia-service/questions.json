@@ -1,0 +1,248 @@
+[
+    {
+      "question": "¿Cuál es la capital de Francia?",
+      "options": ["París", "Londres", "Berlín", "Madrid"],
+      "correctAnswer": "París"
+    },
+    {
+      "question": "¿Quién escribió 'Matar a un ruiseñor'?",
+      "options": ["Harper Lee", "J.K. Rowling", "Ernest Hemingway", "Mark Twain"],
+      "correctAnswer": "Harper Lee"
+    },
+    {
+      "question": "¿Cuál es el símbolo químico del agua?",
+      "options": ["H2O", "O2", "CO2", "NaCl"],
+      "correctAnswer": "H2O"
+    },
+    {
+      "question": "¿Qué planeta es conocido como el Planeta Rojo?",
+      "options": ["Marte", "Tierra", "Júpiter", "Venus"],
+      "correctAnswer": "Marte"
+    },
+    {
+      "question": "¿Quién pintó la Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "question": "¿Cuál es el océano más grande de la Tierra?",
+      "options": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+      "correctAnswer": "Océano Pacífico"
+    },
+    {
+      "question": "¿Quién descubrió la penicilina?",
+      "options": ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+      "correctAnswer": "Alexander Fleming"
+    },
+    {
+      "question": "¿En qué año se hundió el Titanic?",
+      "options": ["1912", "1905", "1920", "1898"],
+      "correctAnswer": "1912"
+    },
+    {
+      "question": "¿Cuál es la capital de Japón?",
+      "options": ["Tokio", "Pekín", "Seúl", "Bangkok"],
+      "correctAnswer": "Tokio"
+    },
+    {
+      "question": "¿Quién escribió '1984'?",
+      "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "J.R.R. Tolkien"],
+      "correctAnswer": "George Orwell"
+    },
+    {
+      "question": "¿Cuál es la raíz cuadrada de 64?",
+      "options": ["8", "7", "6", "9"],
+      "correctAnswer": "8"
+    },
+    {
+      "question": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+      "options": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+      "correctAnswer": "Júpiter"
+    },
+    {
+      "question": "¿Cuál es el animal terrestre más rápido?",
+      "options": ["Guepardo", "León", "Tigre", "Caballo"],
+      "correctAnswer": "Guepardo"
+    },
+    {
+      "question": "¿Cuál es el río más largo del mundo?",
+      "options": ["Amazonas", "Nilo", "Misisipi", "Yangtsé"],
+      "correctAnswer": "Amazonas"
+    },
+    {
+      "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+      "options": ["Miguel de Cervantes", "Gabriel García Márquez", "Jorge Luis Borges", "Pablo Neruda"],
+      "correctAnswer": "Miguel de Cervantes"
+    },
+    {
+      "question": "¿Cuál es la fórmula química del dióxido de carbono?",
+      "options": ["CO2", "O2", "H2O", "CH4"],
+      "correctAnswer": "CO2"
+    },
+    {
+      "question": "¿Cuál es el país más grande del mundo?",
+      "options": ["Rusia", "Canadá", "China", "Estados Unidos"],
+      "correctAnswer": "Rusia"
+    },
+    {
+      "question": "¿En qué año llegó el hombre a la luna?",
+      "options": ["1969", "1959", "1979", "1989"],
+      "correctAnswer": "1969"
+    },
+    {
+      "question": "¿Cuál es el metal más abundante en la Tierra?",
+      "options": ["Aluminio", "Hierro", "Cobre", "Oro"],
+      "correctAnswer": "Hierro"
+    },
+    {
+      "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+      "options": ["Piel", "Hígado", "Cerebro", "Corazón"],
+      "correctAnswer": "Piel"
+    },
+    {
+      "question": "¿Quién desarrolló la teoría de la relatividad?",
+      "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+      "correctAnswer": "Albert Einstein"
+    },
+    {
+      "question": "¿Cuál es el idioma más hablado en el mundo?",
+      "options": ["Chino mandarín", "Español", "Inglés", "Hindú"],
+      "correctAnswer": "Chino mandarín"
+    },
+    {
+      "question": "¿Cuál es el animal más grande del mundo?",
+      "options": ["Ballena azul", "Elefante africano", "Tiburón ballena", "Jirafa"],
+      "correctAnswer": "Ballena azul"
+    },
+    {
+      "question": "¿Quién es el autor de 'Cien años de soledad'?",
+      "options": ["Gabriel García Márquez", "Mario Vargas Llosa", "Julio Cortázar", "Jorge Luis Borges"],
+      "correctAnswer": "Gabriel García Márquez"
+    },
+    {
+      "question": "¿Qué planeta es conocido como el Planeta Azul?",
+      "options": ["Tierra", "Neptuno", "Urano", "Saturno"],
+      "correctAnswer": "Tierra"
+    },
+    {
+      "question": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+      "options": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Helio"],
+      "correctAnswer": "Nitrógeno"
+    },
+    {
+      "question": "¿En qué país se encuentra la Torre Eiffel?",
+      "options": ["Francia", "Italia", "España", "Alemania"],
+      "correctAnswer": "Francia"
+    },
+    {
+      "question": "¿Cuál es el continente más pequeño?",
+      "options": ["Australia", "Europa", "Antártida", "América del Sur"],
+      "correctAnswer": "Australia"
+    },
+    {
+      "question": "¿Qué elemento químico tiene el símbolo Fe?",
+      "options": ["Hierro", "Fósforo", "Flúor", "Francio"],
+      "correctAnswer": "Hierro"
+    },
+    {
+      "question": "¿Cuál es la moneda oficial del Reino Unido?",
+      "options": ["Libra esterlina", "Euro", "Dólar estadounidense", "Franco suizo"],
+      "correctAnswer": "Libra esterlina"
+    },
+    {
+      "question": "¿Quién pintó 'La última cena'?",
+      "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "question": "¿Qué país tiene la mayor población del mundo?",
+      "options": ["China", "India", "Estados Unidos", "Indonesia"],
+      "correctAnswer": "China"
+    },
+    {
+      "question": "¿Cuál es el instrumento musical más grande?",
+      "options": ["Órgano", "Piano", "Contrabajo", "Arpa"],
+      "correctAnswer": "Órgano"
+    },
+    {
+      "question": "¿En qué año terminó la Segunda Guerra Mundial?",
+      "options": ["1945", "1939", "1941", "1950"],
+      "correctAnswer": "1945"
+    },
+    {
+      "question": "¿Cuál es la montaña más alta del mundo?",
+      "options": ["Monte Everest", "K2", "Kangchenjunga", "Lhotse"],
+      "correctAnswer": "Monte Everest"
+    },
+    {
+      "question": "¿Qué es el 'Big Ben'?",
+      "options": ["Un reloj", "Una torre", "Un puente", "Un castillo"],
+      "correctAnswer": "Un reloj"
+    },
+    {
+      "question": "¿Qué deporte se practica en Wimbledon?",
+      "options": ["Tenis", "Críquet", "Fútbol", "Rugby"],
+      "correctAnswer": "Tenis"
+    },
+    {
+      "question": "¿Cuál es el país más pequeño del mundo?",
+      "options": ["Ciudad del Vaticano", "Mónaco", "San Marino", "Liechtenstein"],
+      "correctAnswer": "Ciudad del Vaticano"
+    },
+    {
+      "question": "¿Cuál es la capital de Australia?",
+      "options": ["Canberra", "Sídney", "Melbourne", "Brisbane"],
+      "correctAnswer": "Canberra"
+    },
+    {
+      "question": "¿Quién inventó el teléfono?",
+      "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+      "correctAnswer": "Alexander Graham Bell"
+    },
+    {
+      "question": "¿Cuál es el país más grande de Sudamérica?",
+      "options": ["Brasil", "Argentina", "Perú", "Colombia"],
+      "correctAnswer": "Brasil"
+    },
+    {
+      "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+      "options": ["1914", "1918", "1939", "1945"],
+      "correctAnswer": "1914"
+    },
+    {
+      "question": "¿Cuál es el animal más alto del mundo?",
+      "options": ["Jirafa", "Elefante", "Caballo", "Camello"],
+      "correctAnswer": "Jirafa"
+    },
+    {
+      "question": "¿Qué es la mamba negra?",
+      "options": ["Una serpiente", "Un pez", "Un pájaro", "Un mamífero"],
+      "correctAnswer": "Una serpiente"
+    },
+    {
+      "question": "¿Cuál es la capital de Canadá?",
+      "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+      "correctAnswer": "Ottawa"
+    },
+    {
+      "question": "¿Quién pintó 'Las Meninas'?",
+      "options": ["Diego Velázquez", "Francisco Goya", "El Greco", "Pablo Picasso"],
+      "correctAnswer": "Diego Velázquez"
+    },
+    {
+      "question": "¿Cuál es la lengua más antigua que aún se habla?",
+      "options": ["Tamil", "Sánscrito", "Griego", "Chino"],
+      "correctAnswer": "Tamil"
+    },
+    {
+      "question": "¿Cuál es el desierto más grande del mundo?",
+      "options": ["Desierto del Sahara", "Desierto de Arabia", "Desierto de Gobi", "Desierto de Kalahari"],
+      "correctAnswer": "Desierto del Sahara"
+    },
+    {
+      "question": "¿Qué elemento químico tiene el símbolo Au?",
+      "options": ["Oro", "Plata", "Aluminio", "Argón"],
+      "correctAnswer": "Oro"
+    }
+  ]
+  
