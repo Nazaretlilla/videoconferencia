@@ -7,7 +7,7 @@
     "start-main": "node server.js",
     "start-chat": "cd chat-service && npm start",
     "start-trivia": "cd trivia-service && npm start",
-    "build": "cd frontend && npm install && npm run build",
+    "build": "NODE_OPTIONS=\"--max_old_space_size=4096\" cd frontend && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
