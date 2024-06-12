@@ -1,0 +1,30 @@
+{
+    "buildCommand": "npm run build",
+    "startCommand": "npm start",
+    "env": {
+      "PORT": 3000,
+      "MONGO_URI": "mongodb+srv://jbecerracumbrera:juasdasd@asd.i48aasdn.mongodb.net/?retryWrites=true&w=majority&appName=Clusterasd",
+      "JWT_SECRET": "****"
+    },
+    "services": [
+      {
+        "name": "videoconferencia",
+        "env": {
+          "PORT": 3000
+        }
+      },
+      {
+        "name": "chat-service",
+        "env": {
+          "PORT": 3001
+        }
+      },
+      {
+        "name": "trivia-service",
+        "env": {
+          "PORT": 3002
+        }
+      }
+    ]
+  }
+  

@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "npm run build && concurrently \"npm run start-main\" \"npm run start-chat\" \"npm run start-trivia\"",
+    "start": "npm run start-main && npm run start-chat && npm run start-trivia",
     "start-main": "node server.js",
     "start-chat": "cd chat-service && npm start",
     "start-trivia": "cd trivia-service && npm start",
-    "build": "npm run build-frontend && npm run build-services",
-    "build-frontend": "NODE_OPTIONS=\"--max_old_space_size=4096\" react-scripts build",
-    "build-services": "cd chat-service && npm install && npm run build && cd ../trivia-service && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
