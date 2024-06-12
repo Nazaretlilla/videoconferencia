@@ -1,0 +1,21 @@
+# Este es un ejemplo de archivo railway.toml para tu proyecto
+
+# Configuración general del proyecto
+[env]
+  # Variables de entorno para tu proyecto
+  PORT = 3000
+  MONGO_URI = "mongodb+srv://jbecerracumbrera:juasdasd@asd.i48aasdn.mongodb.net/?retryWrites=true&w=majority&appName=Clusterasd"
+  JWT_SECRET = "****"
+
+# Configuración de construcción y ejecución
+[build]
+  # Comandos de construcción para tu proyecto
+  frontend = "npm run build-frontend"
+  services = "npm run build-services"
+
+# Comandos de inicio
+[start]
+  # Comandos para iniciar tu proyecto
+  main = "npm run start-main"
+  chat = "npm run start-chat"
+  trivia = "npm run start-trivia"
